@@ -93,7 +93,7 @@ if( isset($_POST['back']) && $_POST['back'] ){
 <body>
 <header class="ly_header">
     <nav class="navbar navbar-expand-lg navbar-light bg-light py-2 shadow-sm">
-      <a class="navbar-brand hl_letterSpacing" href="https://provisioninc.biz/"><img src="images/provision-logo.png"
+      <a class="navbar-brand hl_letterSpacing" href="https://delicha.github.io/"><img src="images/provision-logo.png"
           alt="ポートフォリオサイト" width="25px" height="25px" class="mr-3 mt-n1">PORTFOLIO SITE</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
         aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
