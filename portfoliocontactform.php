@@ -88,7 +88,7 @@ if( isset($_POST['back']) && $_POST['back'] ){
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
     integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://delicha.github.io/css/style.css">
 </head>
 <body>
 <header class="ly_header">
@@ -122,7 +122,7 @@ if( isset($_POST['back']) && $_POST['back'] ){
           </li>
           <li class="nav-item">
             <a class="nav-link btn btn-md btn-block btn-primary mx-auto d-block px-4 text-white"
-              href="contactform.php">お問合せ</a>
+              href="https://provisioninc.biz/portfoliocontactform.php">お問合せ</a>
           </li>
         </ul>
       </div>

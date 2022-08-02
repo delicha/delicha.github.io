@@ -19,7 +19,7 @@ $(function () {
 $(function () {
   $(window).on("scroll", function () {
     $('.thum').each(function (index, el) {
-      if ($(window).scrollTop() > ($(el).offset().top - $(window).height() / 2)) {
+      if ($(window).scrollTop() > ($(el).offset().top - $(window).height() / 1.1)) {
         $(el).addClass('is-over');
       }
     });
