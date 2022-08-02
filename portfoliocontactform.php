@@ -141,15 +141,15 @@ if( isset($_POST['back']) && $_POST['back'] ){
                   <svg width="3em" height="3em" viewBox="0 0 16 16" class="bi bi-envelope mb-3" fill="#4f8ce2" xmlns="http://www.w3.org/2000/svg">
                       <path fill-rule="evenodd" d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383l-4.758 2.855L15 11.114v-5.73zm-.034 6.878L9.271 8.82 8 9.583 6.728 8.82l-5.694 3.44A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.739zM1 11.114l4.758-2.876L1 5.383v5.73z"/>
                   </svg>
-                  <h2 class="bl_header_ttl mb-4">お問合せ</h2>
+                  <h2 class="bl_header_ttl mb-3">お問合せ</h2>
                   
-                  <div class="bl_header_lead mb-5">「なにをどうしてよいかわからない」<br />というところからでもお気軽にご連絡ください。</div>
+                  <div class="bl_header_lead mb-3">ご興味のある企業様、ご連絡をお待ちしております!!!</div>
               </div>
 
        
 <?php if( $mode == 'input' ){ ?>
   <!-- 入力画面 -->
-    <form action="./contactform.php" method="post">
+    <form action="./portfoliocontactform.php" method="post">
 
 	<?php
 	if( $errmessage ){
@@ -185,7 +185,7 @@ if( isset($_POST['back']) && $_POST['back'] ){
 <?php } else if( $mode == 'confirm' ){ ?>
   <!-- 確認画面 -->
 
-    <form action="./contactform.php" method="post">
+    <form action="./portfoliocontactform.php" method="post">
       <table class="table">
         <tbody class="text-left">
           <input type="hidden" name="token" value="<?php echo $_SESSION['token']; ?>">
@@ -220,7 +220,7 @@ if( isset($_POST['back']) && $_POST['back'] ){
 </div>
         </article>
     </main>
-    <footer class="py-md-3 text-white bg-dark fixed-bottom">
+    <footer class="py-md-3 text-white bg-dark mt-5">
       山本昇平　&copy; 2022　All Rights Reserved
     </footer>
 </body>
