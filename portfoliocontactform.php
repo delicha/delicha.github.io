@@ -93,8 +93,7 @@ if( isset($_POST['back']) && $_POST['back'] ){
 <body>
 <header class="ly_header">
     <nav class="navbar navbar-expand-lg navbar-light bg-light py-2 shadow-sm">
-      <a class="navbar-brand hl_letterSpacing" href="https://delicha.github.io/"><img src="images/provision-logo.png"
-          alt="ポートフォリオサイト" width="25px" height="25px" class="mr-3 mt-n1">PORTFOLIO SITE</a>
+      <a class="navbar-brand hl_letterSpacing" href="https://delicha.github.io/">PORTFOLIO SITE</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
         aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -102,7 +101,7 @@ if( isset($_POST['back']) && $_POST['back'] ){
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link" href="#me">About Me<span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="https://delicha.github.io/#me">About Me<span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item dropdown active">
             <a class="nav-link dropdown-toggle" href="service.html" id="navbarDropdownMenuLink" data-toggle="dropdown"
@@ -110,15 +109,15 @@ if( isset($_POST['back']) && $_POST['back'] ){
               使用言語
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="#rails">Ruby/Rails</a>
-              <a class="dropdown-item" href="#others">その他言語</a>
+              <a class="dropdown-item" href="https://delicha.github.io/#rails">Ruby/Rails</a>
+              <a class="dropdown-item" href="https://delicha.github.io/#others">その他言語</a>
             </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#app">開発アプリ</a>
+            <a class="nav-link" href="https://delicha.github.io/#app">開発アプリ</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#qiita">Qiita</a>
+            <a class="nav-link" href="https://delicha.github.io/#qiita">Qiita</a>
           </li>
           <li class="nav-item">
             <a class="nav-link btn btn-md btn-block btn-primary mx-auto d-block px-4 text-white"
@@ -129,7 +128,7 @@ if( isset($_POST['back']) && $_POST['back'] ){
     </nav>
     <div class="jumbotron jumbotron-fluid">
       <div class="container">
-        <h1 class="display-4">SHOHEI YAMAMOTO</h1>
+        <h1 class="display-4">Shohei Yamamoto</h1>
         <p class="lead">バックエンドエンジニアとして転職活動中！</p>
       </div>
     </div>
