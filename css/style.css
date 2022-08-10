@@ -15,6 +15,15 @@ header {
   background: linear-gradient(to left, #000, #061f5b);
 }
 
+.name {
+  font-family: 'Caveat', cursive;
+  font-size: 80px;
+}
+
+.ttl-jpn {
+  font-family: 'Yuji Syuku', serif;
+}
+
 main {
   margin: auto 0;
   text-align: center;
@@ -508,3 +517,9 @@ bootstrap用修正
   }
 }
 /*# sourceMappingURL=style.css.map */
+
+@media screen and (max-width: 414px) {
+  .name {
+    font-size: x-large;
+  }
+}
