@@ -520,6 +520,6 @@ bootstrap用修正
 
 @media screen and (max-width: 414px) {
   .name {
-    font-size: x-large;
+    font-size: 30px;
   }
 }
