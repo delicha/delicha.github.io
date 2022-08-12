@@ -15,6 +15,12 @@ header {
   background: linear-gradient(to left, #000, #061f5b);
 }
 
+.logo {
+  font-family: 'Caveat', cursive;
+  font-size: 26px;
+  font-weight: bold;
+}
+
 .name {
   font-family: 'Caveat', cursive;
   font-size: 80px;
