@@ -79,21 +79,22 @@ if( isset($_POST['back']) && $_POST['back'] ){
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>ポートフォリオサイト</title>
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
-    integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
-  <link rel="shortcut icon" href="images/favicon.ico" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
     integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
     integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com"> 
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Yuji+Syuku&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://delicha.github.io/css/style.css">
 </head>
 <body>
 <header class="ly_header">
     <nav class="navbar navbar-expand-lg navbar-light bg-light py-2 shadow-sm">
-      <a class="navbar-brand hl_letterSpacing" href="https://delicha.github.io/">PORTFOLIO SITE</a>
+      <a class="navbar-brand hl_letterSpacing logo text-secondary" href="https://delicha.github.io/">PORTFOLIO SITE</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
         aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -117,7 +118,7 @@ if( isset($_POST['back']) && $_POST['back'] ){
             <a class="nav-link" href="https://delicha.github.io/#app">開発アプリ</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="https://delicha.github.io/#qiita">Qiita</a>
+            <a class="nav-link" href="https://delicha.github.io/#qiita">Qiita記事</a>
           </li>
           <li class="nav-item">
             <a class="nav-link btn btn-md btn-block btn-primary mx-auto d-block px-4 text-white"
@@ -128,8 +129,8 @@ if( isset($_POST['back']) && $_POST['back'] ){
     </nav>
     <div class="jumbotron jumbotron-fluid">
       <div class="container">
-        <h1 class="display-4">Shohei Yamamoto</h1>
-        <p class="lead">バックエンドエンジニアとして転職活動中！</p>
+        <h1 class="name">Shohei Yamamoto</h1>
+        <p class="lead ttl-jpn pl-2">バックエンドエンジニアとして転職活動中！</p>
       </div>
     </div>
   </header>
