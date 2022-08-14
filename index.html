@@ -92,7 +92,7 @@
           <div class="bl_media">
             <div class="bl_media_body px-md-5">
               <div class="bl_media_bodyWrapper pb-4 px-4">
-                <h3 class="bl_media_subTtl mb-4 pb-2 ttl-jpn">経　歴</h3>
+                <h3 class="bl_media_subTtl pb-2 ttl-jpn">経　歴</h3>
                 <div class="table-responsive">
                   <table class="table">
                     <thead class="bg-info text-white">
@@ -152,13 +152,12 @@
                       </tr>
                     </tbody>
                   </table>
-
                 </div>
 
                 <h3 class="bl_media_subTtl mt-5 pb-2 mb-2 ttl-jpn">学習したプログラミングスキル</h3>
-                <ul class="p-2">
+                <ul class="p-3 bg-white">
                   <li><b>■ フロントエンド</b>
-                    <p class="p-1">　HTML | CSS | JavaScript | jQuery | SCSS | Vue | Vuex | Nuxt | Flutter | Swift</p>
+                    <p class="p-1">　HTML | CSS | JavaScript | jQuery | SCSS </p>
                   </li>
                   <li><b>■ バックエンド</b>
                     <p class="p-1">　Ruby | Ruby on Rails | PHP | Nginx | SQL</p>
@@ -170,14 +169,14 @@
                     <p class="p-1">　Git | GitHub</p>
                   </li>
                 </ul>
-                <h3 class="bl_media_subTtl mt-5 mb-4 pb-2 ttl-jpn">どの様な業務をしたいか？</h3>
-                <div class="px-3">
+                <h3 class="bl_media_subTtl mt-5 pb-2 ttl-jpn">どのような業務をしたいか？</h3>
+                <div class="p-3 bg-white">
                   <p>
                     <span class="text-danger font-weight-bold">世に出ていないユニークなアプリや既存のものに一手間を加えてさらにユーザーのニーズに応えるようなアプリを開発</span>したいと思っています。そのために必要な言語やスキルを常に取り入れていける環境で働きたいと思っています。
                   </p>
                 </div>
-                <h3 class="bl_media_subTtl mt-5 mb-4 pb-2 ttl-jpn">どの様なエンジニアになりたいか？</h3>
-                <div class="px-3">
+                <h3 class="bl_media_subTtl mt-5 pb-2 ttl-jpn">どのようなエンジニアになりたいか？</h3>
+                <div class="p-3 bg-white">
                   <p id="app">
                     <span class="text-danger font-weight-bold">「こんなアプリがあればもっと便利になる！」というサービスを作って社会に貢献していきたいからです。</span>
                   </p>
@@ -210,6 +209,7 @@
                     <div class="d-flex flex-column align-items-center">
                       <img src="images/Videotogif.gif" alt="アプリイメージ">
                       <a href="https://scouter.fun/" class="my-2">https://scouter.fun/</a>
+                      <p class="text-center">ゲストログイン：<br />sk715@email.com / password</p>
                       <p>こちらのアプリの<a
                           href="https://qiita.com/delicha/items/3a16c3be72d5ae6e8cf8">Qiita記事</a><br /><small>(LGTM100以上/25000views以上)</small>
                       </p>
@@ -219,26 +219,32 @@
                 </div>
                 <div class="col-md-8">
                   <div class="flex-md-row mb-4">
-                    <div class="d-flex flex-column align-items-start text-left">
+                    <div class="d-flex flex-column align-items-start text-left bg-white p-3">
                       <p>▶︎ 使用技術</p>
-                      <p>　HTML | CSS | SCSS | JavaScript | Ruby | Ruby on Rails | SQL | Nginx | AWS（VPC／EC2／Route53／IGW／ALB／ACM／RDS／S3／CloudFront）| Git | GitHub</p>
+                      <ul class="pl-3">
+                        <li> - HTML | CSS | SCSS | JavaScript | Ruby | Ruby on Rails | SQL | Nginx </li>
+                        <li> - AWS（VPC／EC2／Route53／IGW／ALB／ACM／RDS／S3／CloudFront）</li>
+                        <li> - Git | GitHub</li>
+                      </ul>
+                      <p align="center">
+                        <img src="https://image.scouter.fun/system.png" width="90%" class="my-2" />
+                      </p>
                       <p>▶︎ ポイント</p>
-                      <ul>
-                        <li>・リアルなサービスに近いデザイン（レスポンシブ対応）</li>
-                        <li>・マッチングアプリのマッチングするまでを補うようなアプリ。自分の印象の評価が男女別、世代別、また相手の性格や趣味など多角的に分析できる</li>
-                        <li>・パブリックサブネットを2つ用意しロードバランサーを据え可用性を高めたインフラ構築</li>
-                        <li>・開発環境、本番環境でシステム構成を分けて、それぞれDockerにて管理</li>
+                      <ul class="pl-2">
+                        <li>・自分の印象の評価が男女別、世代別、など多角的に分析できる</li>
+                        <li>・パブリックサブネットを2つ用意しALBを据えた<b>可用性</b>を高めたシステム</li>
+                        <li>・開発環境、本番環境でシステム構成を分け、<b>Docker</b>で管理</li>
                         <li>・AWSのCloud Front、S3、Route53、ACM、RDS、IAMを利用</li>
-                        <li>・Deviseを使ったログイン認証、ユーザーと管理者を分け、管理者画面を設置</li>
+                        <li>・ログイン認証機能、管理者用画面を設置</li>
                         <li>・DBの画像をカルーセルで表示、また個別に削除する機能</li>
-                        <li>・個人開発だがGithubでブランチを切り、プルリクしながら開発</li>
+                        <li>・リアルなサービスに近いデザイン（レスポンシブ対応）</li>
+                        <li>・Githubでブランチを切り、プルリクしながら開発</li>
                         <li>・独自ドメイン取得</li>
                       </ul>
                     </div>
                   </div>
                 </div>
               </div>
-
             </div>
             <div class="bl_media_bodyWrapper pb-3 px-4">
               <h3 class="bl_media_subTtl mt-5 mb-4 pb-2 ttl-jpn">Rails+Heroku 塾の生徒情報、授業報告書を管理するアプリの開発</h3>
@@ -248,18 +254,23 @@
                     <div class="d-flex flex-column align-items-center">
                       <img src="images/bestreport.gif" alt="アプリイメージ">
                       <a href="https://bestreport.herokuapp.com/" class="my-2">https://bestreport.herokuapp.com/</a>
+                      <p class="text-center">ゲストログイン：<br />best@email.com / passpass</p>
                     </div>
                   </div>
                 </div>
                 <div class="col-md-8">
                   <div class="flex-md-row mb-4">
-                    <div class="d-flex flex-column align-items-start text-left">
+                    <div class="d-flex flex-column align-items-start text-left bg-white p-3">
                       <p>▶︎ 使用技術</p>
-                      <p>　HTML | CSS | SCSS | Ruby | Ruby on Rails | SQL | Heroku | Git | GitHub</p>
+                      <ul class="pl-3">
+                        <li> - HTML | CSS | SCSS | Ruby | Ruby on Rails | SQL</li>
+                        <li> - Heroku</li>
+                        <li> - Git | GitHub</li>
+                      </ul>
                       <p>▶︎ ポイント</p>
-                      <ul>
-                        <li>・Deviseによらないログイン・ログアウト機能</li>
-                        <li>・講師に管理者権限</li>
+                      <ul class="pl-2">
+                        <li>・ログイン認証機能</li>
+                        <li>・管理者用画面</li>
                         <li>・授業報告書作成後、保護者にメールにて結果を報告する機能</li>
                         <li>・CSVでのDBのインポート、エクスポート機能</li>
                         <li>・Bootstrapによるデザイン</li>
@@ -284,18 +295,18 @@
                 </div>
                 <div class="col-md-8">
                   <div class="flex-md-row mb-4">
-                    <div class="d-flex flex-column align-items-start text-left">
+                    <div class="d-flex flex-column align-items-start text-left bg-white p-3">
                       <ul>
-                        <li>▶︎ Flutter(書籍、Youtube、Udemyで学習)</li>
-                        <p>・Firebaseと連携したToDoアプリ/チャットアプリ</p>
-                        <li>▶︎ Swift(書籍、Udemyで学習)</li>
-                        <p>・ToDoアプリ/APIアプリ</p>
-                        <li>▶︎ PHP(書籍、Youtube)</li>
-                        <p>・ショッピングカートアプリ/お問合せフォーム</p>
-                        <li>▶︎ JavaScript(書籍、Youtubeで学習)</li>
-                        <p>・ドラクエ風ゲーム</p>
-                        <li>▶︎ Vue/Vuex/Nuxt(書籍、Techpitで学習)</li>
-                        <p>・Firebaseと連携したToDoアプリ</p>
+                        <li>▶︎ Flutter (書籍 / Youtube、Udemy)</li>
+                        <p class="pt-2 pl-2">・Firebaseと連携したToDoアプリ/チャットアプリ</p>
+                        <li>▶︎ Swift (書籍 / Udemy)</li>
+                        <p class="pt-2 pl-2">・ToDoアプリ/APIアプリ</p>
+                        <li>▶︎ PHP (書籍 / Youtube)</li>
+                        <p class="pt-2 pl-2">・ショッピングカートアプリ/お問合せフォーム</p>
+                        <li>▶︎ JavaScript (書籍 / Youtube)</li>
+                        <p class="pt-2 pl-2">・ドラクエ風ゲーム</p>
+                        <li>▶︎ Vue/Vuex/Nuxt (書籍 / Techpit)</li>
+                        <p class="pt-2 pl-2">・Firebaseと連携したToDoアプリ</p>
                       </ul>
                     </div>
                   </div>
