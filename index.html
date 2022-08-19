@@ -34,25 +34,14 @@
           <li class="nav-item">
             <a class="nav-link" href="#me">About Me<span class="sr-only">(current)</span></a>
           </li>
-          <li class="nav-item dropdown active">
-            <a class="nav-link dropdown-toggle" href="service.html" id="navbarDropdownMenuLink" data-toggle="dropdown"
-              aria-haspopup="true" aria-expanded="false">
-              使用言語
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="#rails">Ruby/Rails</a>
-              <a class="dropdown-item" href="#others">その他言語</a>
-            </div>
+          <li class="nav-item">
+            <a class="nav-link" href="#rails">Ruby/Rails</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#app">個人開発実績</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#qiita">Qiita記事</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link btn btn-md btn-block btn-primary mx-auto d-block px-4 text-white"
-              href="https://provisioninc.biz/portfoliocontactform.php"><i class="fa-solid fa-envelope"></i> ご連絡</a>
           </li>
         </ul>
       </div>
@@ -177,14 +166,23 @@
                 </div>
                 <h3 class="bl_media_subTtl mt-5 pb-2">どのようなエンジニアになりたいか？</h3>
                 <div class="p-3 bg-white rounded">
-                  <p id="app">
+                  <p>
                     <span class="text-danger font-weight-bold lead">「こんなアプリがあればもっと助かる！」というサービスを作って社会に貢献していきたいです！</span>
                   </p>
                   <p>
-  そう強く思わされたのは、私が被災者になった時にITの役割の重要性を痛感させられたからなのだと思います。東日本大震災で被災した時、食糧、ガソリン、水を確保できる場所、あるいは地元の放射線量など素早く知らないと死活問題と思える情報を得るために役に立ったのはツイッターなどのアプリやインターネットでした。つい最近も大雨があり、3年前に堤防の決壊で車を水没させてしまった自分は、すぐさまYahooのお天気アプリで川の情報を確認して状況を把握し、そのおかげで適切な行動へと繋げられました。
+                    そう強く思わされたのは、私が被災者になった時にITの役割の重要性を痛感させられたからです。
                   </p>
                   <p>
-  そのように被災した時にアプリに助けられた経験から、自分自身も世の中のお困りごとに応えられる便利なサービスを提供することで誰かを助け、社会貢献できるエンジニアになりたいと思っています。
+                    東日本大震災の際に原発がメルトダウンして町がパニックの中、SNSアプリからの情報で食糧やガソリンを確保できたり、アプリを通して県外の友人から無事の確認や支援の申し出を受ける経験をしました。本当にピンチだったので「みんなに本当に心配されてるんだな」と心からうれしく思いましたし、あの時SNSアプリがなければ、と思うとゾッとします。
+                  </p>
+                  <p> 
+                    このように助けられた経験から誰かの困りごとの役に立ちたいと思い、私自身現場に赴いて被災地支援も積極的に行ってきました。とはいえ、支援の仕方はさまざまで、例えばアプリであれば、現場に行くのとはまた違う形でより多くの人に影響を与えるような人助けが可能で、そのようなアプリの可能性に魅力を感じています。
+                  </p>  
+                  <p>
+                    アプリを作る技術を持った人はたくさんいますが、震災で「本当に助けられたので、自分もだれか助けたい」という気持ちの強さは私は他の人より大きいと思っていますし、それはユーザーのニーズに寄り添ってより良いものを作る時に大事なものになると思っています。
+                  </p>  
+                  <p>
+                    以上のことから、私は世の中のお困りごとに応えられるサービスを提供することで誰かを助けて社会貢献していけるようなようなエンジニアになりたいです。
                   </p>
                 </div>
                 <h3 class="bl_media_subTtl mt-5 pb-2">自己PR</h3>
@@ -209,7 +207,7 @@
           <h2 class="bl_header_ttl mb-4 text-secondary" id="rails">個人開発実績</h2>
           <img src="images/railslogo.png" class="my-2" alt="railsイメージ">
         </div>
-        <div class="bl_media">
+        <div class="bl_media" id="app">
           <div class="bl_media_body px-md-5">
             <div class="bl_media_bodyWrapper my-3 py-2 px-4">
 
@@ -334,9 +332,9 @@
       <section class="ly_cont mb-5">
         <div class="bl_header">
           <i class="fa-solid fa-file-pen fa-4x my-4 text-info"></i>
-          <h2 class="bl_header_ttl mb-4 text-secondary" id="qiita">その他</h2>
+          <h2 class="bl_header_ttl mb-5 text-secondary" id="qiita">その他</h2>
         </div>
-        <div class="row mb-2">
+        <div class="row mb-5">
           <div class="col-md-6">
             <div class="card flex-md-row mb-4 shadow-sm h-md-250">
               <div class="card-body d-flex flex-column align-items-start">
@@ -345,7 +343,7 @@
                   <a class="text-dark" href="https://qiita.com/delicha">Qiita記事</a>
                 </h3>
                 <!-- <div class="mb-1 text-muted">11/12</div> -->
-                <p class="card-text ml-auto mt-4 text-left">LGTM 100以上、25000 views以上の記事を含めたアプリ制作の中での問題の解決を綴っています。(<a
+                <p class="card-text ml-auto mt-4 text-left">LGTM 100以上、25000 views以上の記事を含めたアプリ制作での問題の解決を綴っています。(<a
                     href="https://qiita.com/delicha">詳細</a>)</p>
               </div>
               <img src="images/qiitasite.png" class="card-img-right flex-auto d-none d-lg-block border"
@@ -360,7 +358,7 @@
                   <a class="text-dark" href="https://provisioninc.biz">WEB制作サイト</a>
                 </h3>
                 <!-- <div class="mb-1 text-muted">11/11</div> -->
-                <p class="card-text ml-auto mt-4 text-left">主にWordPressを用いたWEBサイトを制作しています。(<a
+                <p class="card-text ml-auto mt-4 text-left">主にWordPressの技術を用いたクライアント様の方で更新可能なWEBサイトを制作しています。(<a
                     href="https://provisioninc.biz">詳細</a>)</p>
               </div>
               <img src=" images/provisionsite.png" class="card-img-right flex-auto d-none d-lg-block border"
@@ -368,7 +366,7 @@
               </div>
             </div>
           </div>
-          <div class="mx-5 my-4">
+          <div class="m-5">
             <a href="https://provisioninc.biz/portfoliocontactform.php"
               class="btn btn-primary btn-lg btn-block mx-auto w-50 py-3"><i class="fa-solid fa-envelope fa-2x"></i><span class="lead font-weight-bold">　ご連絡はこちらから</span></a>
           </div>
@@ -391,6 +389,13 @@
     integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
     crossorigin="anonymous"></script>
   <script src="js/script.js"></script>
+  <script>
+    $('.navbar-nav>li>a , .dropdown-menu>a').on('click', function(){
+        if(this.id != 'navbarDropdown'){
+          $('.navbar-collapse').collapse('hide');
+        }
+    });
+  </script>
 </body>
 
 </html>
