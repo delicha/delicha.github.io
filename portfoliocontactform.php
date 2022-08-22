@@ -94,7 +94,7 @@ if( isset($_POST['back']) && $_POST['back'] ){
 <body>
 <header class="ly_header">
     <nav class="navbar navbar-expand-lg navbar-light bg-light py-2 shadow-sm">
-      <a class="navbar-brand hl_letterSpacing logo text-secondary" href="https://delicha.github.io/">PORTFOLIO SITE</a>
+      <a class="navbar-brand hl_letterSpacing logo text-secondary" href="https://delicha.github.io/">Portfolio Site</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
         aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -104,25 +104,14 @@ if( isset($_POST['back']) && $_POST['back'] ){
           <li class="nav-item">
             <a class="nav-link" href="https://delicha.github.io/#me">About Me<span class="sr-only">(current)</span></a>
           </li>
-          <li class="nav-item dropdown active">
-            <a class="nav-link dropdown-toggle" href="service.html" id="navbarDropdownMenuLink" data-toggle="dropdown"
-              aria-haspopup="true" aria-expanded="false">
-              使用言語
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="https://delicha.github.io/#rails">Ruby/Rails</a>
-              <a class="dropdown-item" href="https://delicha.github.io/#others">その他言語</a>
-            </div>
+          <li class="nav-item">
+            <a class="nav-link" href="https://delicha.github.io/#rails">Ruby/Rails</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="https://delicha.github.io/#app">開発アプリ</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="https://delicha.github.io/#qiita">Qiita記事</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link btn btn-md btn-block btn-primary mx-auto d-block px-4 text-white"
-              href="https://provisioninc.biz/portfoliocontactform.php">お問合せ</a>
           </li>
         </ul>
       </div>
